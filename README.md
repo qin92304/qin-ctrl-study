@@ -1,2 +1,8 @@
 # qin-ctrl-study
-study repository
+
+\# 电控组首次培训作业
+
+\- \*\*秦琳\*\*
+
+\- \*\*\*2025XXXXXX\*\*\*
+
