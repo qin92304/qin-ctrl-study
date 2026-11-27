@@ -1,0 +1,25 @@
+--cpu Cortex-M3
+"third\startup_stm32f103xb.o"
+"third\main.o"
+"third\gpio.o"
+"third\usart.o"
+"third\stm32f1xx_it.o"
+"third\stm32f1xx_hal_msp.o"
+"third\oled.o"
+"third\stm32f1xx_hal_gpio_ex.o"
+"third\stm32f1xx_hal_uart.o"
+"third\stm32f1xx_hal.o"
+"third\stm32f1xx_hal_rcc.o"
+"third\stm32f1xx_hal_rcc_ex.o"
+"third\stm32f1xx_hal_gpio.o"
+"third\stm32f1xx_hal_dma.o"
+"third\stm32f1xx_hal_cortex.o"
+"third\stm32f1xx_hal_pwr.o"
+"third\stm32f1xx_hal_flash.o"
+"third\stm32f1xx_hal_flash_ex.o"
+"third\stm32f1xx_hal_exti.o"
+"third\system_stm32f1xx.o"
+--strict --scatter "third\third.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "third.map" -o third\third.axf
